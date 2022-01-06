@@ -7,8 +7,5 @@ url = 'https://duonotes.fandom.com/wiki/Japanese'
 with urllib.request.urlopen(url) as response:
     soup = BeautifulSoup(response.read(), 'html.parser')
 
-print(soup.prettify())
+toc = soup.find(id="toc")
 
-# for div in soup.find_all('div'):
-#     if div['id'] == 'toc':
-#         print(div)
