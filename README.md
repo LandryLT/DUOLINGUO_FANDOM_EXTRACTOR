@@ -5,9 +5,9 @@ Duolinguo Fandom Extractor is a tiny script that allows you to extract the conte
 ## Installation
 
 Use the package manager pip to install this script :
-'''bash
+```bash
 pip install requirements.txt
-'''
+```
 
 ## genDeck
 
@@ -19,10 +19,11 @@ extractHTML solely uses [BeautifulSoup](https://www.crummy.com/software/Beautifu
 
 Some Extra options on stylizing :
 You can use the method
-'''python
+```python
 FandomExtractWStyle.stylise(tag_name: str, style: str):
-'''
+```
 to insert style in your HTML. 
 Example :
-'''python
+```python
 FandomeExtractWStyle.stylise("h2", "color: red; border: 1px solid black")
+```
