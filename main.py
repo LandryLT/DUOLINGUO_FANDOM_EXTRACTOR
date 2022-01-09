@@ -2,10 +2,10 @@ from extractHTML import FandomExtractWStyle
 from genDeck import GenkiDeck
 
 url = 'https://duonotes.fandom.com/wiki/Japanese'
-outputapkg = 'C:/Users/landr/Desktop/Tiiiiips.apkg'
+outputapkg = 'C:/Users/landr/Desktop/Duolinguo授業チップ.apkg'
 
 jap_fandom = FandomExtractWStyle(url)
-jap_duolingo_ankideck = GenkiDeck("Tiiiiips")
+jap_duolingo_ankideck = GenkiDeck("Duolinguo授業チップ")
 
 jap_fandom.stylise("th", 'background-color: #ccc;text-align: left; border-bottom: 1px solid black')
 jap_fandom.stylise("tr", 'background-color: #eee;text-align: left; border-bottom: 1px solid black')
