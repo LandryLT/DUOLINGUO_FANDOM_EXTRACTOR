@@ -17,12 +17,11 @@ genDeck solely uses a [library developped by Kerrick Staley](https://github.com/
 
 extractHTML solely uses [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/). 
 
-Some Extra options on stylizing :
+Some extra options on stylizing :
 You can use the method
 ```python
 FandomExtractWStyle.stylise(tag_name: str, style: str):
 ```
-to insert style in your HTML. 
 Example :
 ```python
 FandomeExtractWStyle.stylise("h2", "color: red; border: 1px solid black")
